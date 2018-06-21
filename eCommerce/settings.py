@@ -25,7 +25,7 @@ SECRET_KEY = 'n!_8)1^!*3&zx2apb@k57g!+!m$*erzh4xks5d@p_m5ugu0sem'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -122,9 +122,17 @@ LOGIN_REDIRECT_URL = 'home'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_ROOT, 'static'),
+)
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(os.path.dirname(BASE_DIR),'upload_file')
 CART_SESSION_ID = 'cart'
+
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
