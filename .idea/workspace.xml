@@ -2,13 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6bf7d7a-2fdc-479c-b82b-9399739b1e7a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/runtime.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/eCommerce/settings.py" afterPath="$PROJECT_DIR$/eCommerce/settings.py" />
-      <change beforePath="$PROJECT_DIR$/eCommerce/wsgi.py" afterPath="$PROJECT_DIR$/eCommerce/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/banner_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/banner_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/banner_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/blog_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/blog_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/blog_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/deal_ofthe_week.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/desc_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/desc_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/desc_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/map_marker.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/product_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/single_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/single_1_thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/single_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/single_2_thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/single_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/single_3_thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/images/slider_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/cart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/categories_custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/contact_custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/jquery-3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/single_custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/Isotope/isotope.pkgd.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/easing/easing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/jquery-ui-1.12.1.custom/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/jquery-ui-1.12.1.custom/jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/themify-icons/fonts/themify.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/themify-icons/fonts/themify.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/themify-icons/fonts/themify.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/themify-icons/fonts/themify.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/plugins/themify-icons/themify-icons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/bootstrap4/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/bootstrap4/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/bootstrap4/popper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/categories_responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/categories_styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/contact_responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/contact_styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/main_styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/single_responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/home/static/styles/single_styles.css" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -55,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -71,11 +162,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eCommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="438">
+              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -698,14 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eCommerce/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -725,7 +808,7 @@
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -734,6 +817,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eCommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
