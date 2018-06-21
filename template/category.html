@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block body %}
+    <br> <br> <br> <br><br> <br> <br>
+    <div class="super_container">
+    <div class="container">
+<div class="row">
+				<div class="col">
+					<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
+
+						<!-- Product 1 -->
+
+						<!-- Product 2 -->
+
+                    {%  if product_category %}
+                    {%  for item in product_category %}
+                        <form id="add_cart">{% csrf_token %}
+                          <div class="product-item {{ item.category }}">
+							<div class="product discount product_filter">
+								<div class="product_image">
+                                    <a href="{% url 'product_details' item.id %}">	<img src="{{ item.product_image.url }}" alt="{{ item.product_name }}"></a>
+								</div>
+								<div class="favorite favorite_left"></div>
+
+								<div class="product_info">
+									<h6 class="product_name"><a href="single.html">{{ item.product_name }}</a></h6>
+									<div class="product_price">{{ item.product_price }} BDT <span>{{ item.previous_product_price }} BDT</span></div>
+                                   <input type="hidden" name="product_id" value="{{ item.id }}" id="product_id">
+								</div>
+							</div>
+
+                             <input class="red_button add_to_cart_button" id="add"type="submit" value="Add to Cart">
+						</div>
+</form>
+                    {%  endfor  %}
+                     {% endif %}
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+
+
+
+{% endblock %}
+
+{%  block javascript %}
+
+<script src="{%  static '/js/cart.js' %}"></script>
+{% endblock %}
+
+

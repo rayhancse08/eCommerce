@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+
+{% block body %}
+    <br> <br> <br> <br><br> <br> <br>
+    <div class="super_container">
+    <div class="container">
+<div class="row">
+
+    <div class="col-sm-12" style="padding-left: 20%;padding-right: 20%">
+      <table class="table">
+        <tr>
+          <td><h4>Order Summary</h4></td>
+        </tr>
+        <tr>
+          <td>
+            {% for item in order.get_cart_items %}
+              <tr>
+                <td>{{ item }}</td>
+                  <td> <img src="{{ item.product.product_image.url }}" style="width: 75px;height: 75px"></td>
+                <td>{{ item.product.product_price }}</td>
+
+              </tr>
+            {% endfor %}
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Order Total</strong> </td>
+            <td></td>
+          <td> <strong>{{ order.get_cart_total }}</strong></td>
+        </tr>
+      </table>
+<form method="POST" action="#">
+          {% csrf_token %}
+          <button style="width: 50%; float: left;" class="btn btn-warning">Pay with card</button>
+
+        </form>
+        <!-- for another day -->
+        <form method="POST" action="#">
+          {% csrf_token %}
+          <button style="width: 50%; float: right;" class="btn btn-primary">Pay with Paypal</button>
+        </form>
+    </div>
+   </div>
+    </div>
+   </div>
+  <!-- </form> -->
+ <
+</div>
+    </div>
+    </div>
+
+{% endblock %}
